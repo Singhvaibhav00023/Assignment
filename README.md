@@ -14,7 +14,7 @@ mvn test -D suite=testng.xml
 **Note:**
 Used TestNG with Parametrization created two tests for two movies "Pushpa: The Rise - Part 1" and "Krrish 3"
 
-Integrated Project with Jenkins
+**Integrated Project with Jenkins**
 
 1) Go to jenkins.war path
 2) java –jar jenkins.war
