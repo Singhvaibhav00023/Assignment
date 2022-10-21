@@ -1,0 +1,4 @@
+pageobjects\WikiMainPage.class
+pageobjects\IMDBLandingPage.class
+pageobjects\WikiSearchResultsPage.class
+pageobjects\IMDBMovieDetailsPage.class

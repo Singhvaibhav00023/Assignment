@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Assignment">
+	<test thread-count="1" name="Movie1">
+		<parameter name="Moviename" value="Pushpa: The Rise - Part 1" />
+		<classes>
+			<class name="MovieInformationValidationTest" />
+		</classes>
+	</test>
+	<test thread-count="1" name="Movie2">
+		<parameter name="Moviename" value="Krrish 3" />
+		<classes>
+			<class name="MovieInformationValidationTest" />
+		</classes>
+	</test>
+</suite>
