@@ -12,7 +12,7 @@ mvn test -D suite=testng.xml
 5. Results will be displayed
 
 **Note:**
-Used TestNG with Parametrization created two tests for two movies "Pushpa: The Rise - Part 1", "K.G.F: Chapter 2" and "Tanhaji: The Unsung Warrior"
+Used TestNG with Parametrization created tests for three movies "Pushpa: The Rise - Part 1", "K.G.F: Chapter 2" and "Tanhaji: The Unsung Warrior"
 
 **Integrated Project with Jenkins**
 
