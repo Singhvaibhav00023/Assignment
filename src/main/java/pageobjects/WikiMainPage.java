@@ -10,10 +10,10 @@ public class WikiMainPage {
 	WebDriver driver;
 
 	@FindBy(css = "input[id=\"searchInput\"]")
-	WebElement searchbox;
+	private WebElement searchbox;
 
 	@FindBy(id = "searchButton")
-	WebElement searchbutton;
+	private WebElement searchbutton;
 
 	public WikiMainPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub

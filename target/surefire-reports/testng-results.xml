@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-22T01:48:23 IST" name="Assignment" finished-at="2022-10-22T01:48:57 IST" duration-ms="34022">
+  <suite started-at="2022-10-22T14:35:59 IST" name="Assignment" finished-at="2022-10-22T14:37:00 IST" duration-ms="60184">
     <groups>
     </groups>
-    <test started-at="2022-10-22T01:48:23 IST" name="Movie1" finished-at="2022-10-22T01:48:40 IST" duration-ms="16604">
-      <class name="MovieInformationValidationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:MovieInformationValidationTest@56620197]" started-at="2022-10-22T01:48:23 IST" name="setup" finished-at="2022-10-22T01:48:26 IST" duration-ms="2717" status="PASS">
+    <test started-at="2022-10-22T14:35:59 IST" name="Movie1" finished-at="2022-10-22T14:36:22 IST" duration-ms="23012">
+      <class name="test.MovieInformationValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.MovieInformationValidationTest@6eda5c9]" started-at="2022-10-22T14:35:59 IST" name="setup" finished-at="2022-10-22T14:36:03 IST" duration-ms="3346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CompareMovieDataFromImdbAndWiki(java.lang.String)[pri:0, instance:MovieInformationValidationTest@56620197]" started-at="2022-10-22T01:48:26 IST" name="CompareMovieDataFromImdbAndWiki" finished-at="2022-10-22T01:48:40 IST" duration-ms="13602" status="PASS">
+        <test-method signature="CompareMovieDataFromImdbAndWiki(java.lang.String)[pri:0, instance:test.MovieInformationValidationTest@6eda5c9]" started-at="2022-10-22T14:36:03 IST" name="CompareMovieDataFromImdbAndWiki" finished-at="2022-10-22T14:36:22 IST" duration-ms="19293" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,34 +22,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareMovieDataFromImdbAndWiki -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MovieInformationValidationTest@56620197]" started-at="2022-10-22T01:48:40 IST" name="tearDown" finished-at="2022-10-22T01:48:40 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.MovieInformationValidationTest@6eda5c9]" started-at="2022-10-22T14:36:22 IST" name="tearDown" finished-at="2022-10-22T14:36:22 IST" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- MovieInformationValidationTest -->
+      </class> <!-- test.MovieInformationValidationTest -->
     </test> <!-- Movie1 -->
-    <test started-at="2022-10-22T01:48:40 IST" name="Movie2" finished-at="2022-10-22T01:48:57 IST" duration-ms="17378">
-      <class name="MovieInformationValidationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:MovieInformationValidationTest@7e07db1f]" started-at="2022-10-22T01:48:40 IST" name="setup" finished-at="2022-10-22T01:48:41 IST" duration-ms="1526" status="PASS">
+    <test started-at="2022-10-22T14:36:22 IST" name="Movie2" finished-at="2022-10-22T14:36:42 IST" duration-ms="19146">
+      <class name="test.MovieInformationValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.MovieInformationValidationTest@1189dd52]" started-at="2022-10-22T14:36:22 IST" name="setup" finished-at="2022-10-22T14:36:25 IST" duration-ms="2019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CompareMovieDataFromImdbAndWiki(java.lang.String)[pri:0, instance:MovieInformationValidationTest@7e07db1f]" started-at="2022-10-22T01:48:41 IST" name="CompareMovieDataFromImdbAndWiki" finished-at="2022-10-22T01:48:57 IST" duration-ms="15539" status="PASS">
+        <test-method signature="CompareMovieDataFromImdbAndWiki(java.lang.String)[pri:0, instance:test.MovieInformationValidationTest@1189dd52]" started-at="2022-10-22T14:36:25 IST" name="CompareMovieDataFromImdbAndWiki" finished-at="2022-10-22T14:36:41 IST" duration-ms="16751" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Krrish 3]]>
+                <![CDATA[K.G.F: Chapter 2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareMovieDataFromImdbAndWiki -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MovieInformationValidationTest@7e07db1f]" started-at="2022-10-22T01:48:57 IST" name="tearDown" finished-at="2022-10-22T01:48:57 IST" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.MovieInformationValidationTest@1189dd52]" started-at="2022-10-22T14:36:41 IST" name="tearDown" finished-at="2022-10-22T14:36:42 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- MovieInformationValidationTest -->
+      </class> <!-- test.MovieInformationValidationTest -->
     </test> <!-- Movie2 -->
+    <test started-at="2022-10-22T14:36:42 IST" name="Movie3" finished-at="2022-10-22T14:37:00 IST" duration-ms="17929">
+      <class name="test.MovieInformationValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.MovieInformationValidationTest@49ec71f8]" started-at="2022-10-22T14:36:42 IST" name="setup" finished-at="2022-10-22T14:36:44 IST" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CompareMovieDataFromImdbAndWiki(java.lang.String)[pri:0, instance:test.MovieInformationValidationTest@49ec71f8]" started-at="2022-10-22T14:36:44 IST" name="CompareMovieDataFromImdbAndWiki" finished-at="2022-10-22T14:36:59 IST" duration-ms="15808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tanhaji: The Unsung Warrior]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompareMovieDataFromImdbAndWiki -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.MovieInformationValidationTest@49ec71f8]" started-at="2022-10-22T14:36:59 IST" name="tearDown" finished-at="2022-10-22T14:37:00 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.MovieInformationValidationTest -->
+    </test> <!-- Movie3 -->
   </suite> <!-- Assignment -->
 </testng-results>

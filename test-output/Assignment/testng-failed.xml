@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assignment]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Movie1(failed)">
+    <parameter name="Moviename" value="Pushpa: The Rise - Part 1"/>
+    <classes>
+      <class name="MovieInformationValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="CompareMovieDataFromImdbAndWiki" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MovieInformationValidationTest -->
+    </classes>
+  </test> <!-- Movie1(failed) -->
+  <test thread-count="5" name="Movie2(failed)">
+    <parameter name="Moviename" value="K.G.F: Chapter 2"/>
+    <classes>
+      <class name="MovieInformationValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="CompareMovieDataFromImdbAndWiki" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MovieInformationValidationTest -->
+    </classes>
+  </test> <!-- Movie2(failed) -->
+  <test thread-count="5" name="Movie3(failed)">
+    <parameter name="Moviename" value="Tanhaji: The Unsung Warrior"/>
+    <classes>
+      <class name="MovieInformationValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="CompareMovieDataFromImdbAndWiki" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MovieInformationValidationTest -->
+    </classes>
+  </test> <!-- Movie3(failed) -->
+</suite> <!-- Failed suite [Assignment] -->

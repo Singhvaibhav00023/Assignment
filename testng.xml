@@ -4,13 +4,20 @@
 	<test thread-count="1" name="Movie1">
 		<parameter name="Moviename" value="Pushpa: The Rise - Part 1" />
 		<classes>
-			<class name="MovieInformationValidationTest" />
+			<class name="test.MovieInformationValidationTest" />
 		</classes>
 	</test>
 	<test thread-count="1" name="Movie2">
-		<parameter name="Moviename" value="Krrish 3" />
+		<parameter name="Moviename" value="K.G.F: Chapter 2" />
 		<classes>
-			<class name="MovieInformationValidationTest" />
+			<class name="test.MovieInformationValidationTest" />
 		</classes>
 	</test>
+	<test thread-count="1" name="Movie3">
+		<parameter name="Moviename" value="Tanhaji: The Unsung Warrior" />
+		<classes>
+			<class name="test.MovieInformationValidationTest" />
+		</classes>
+	</test>
+
 </suite>
